@@ -1,0 +1,181 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Rankability Agent API \u2014 Read-only Starter",
+    "version": "1.0.0",
+    "description": "A bounded read-only starter subset, not the full Agent API specification. Use the public API guide for the current full contract.",
+    "contact": {
+      "name": "Rankability Support",
+      "url": "https://help.rankability.com/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://app.rankability.com/api/agent/v1"
+    }
+  ],
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ],
+  "paths": {
+    "/usage": {
+      "get": {
+        "operationId": "getUsage",
+        "summary": "Read current usage contract",
+        "description": "Required scope: Any supported Agent API scope. Reads saved state without starting paid work.",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response; shape depends on the endpoint.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Authentication required"
+          },
+          "403": {
+            "description": "Scope or account access required"
+          },
+          "429": {
+            "description": "Rate limit or usage limit; honor response retry guidance"
+          }
+        }
+      }
+    },
+    "/clients": {
+      "get": {
+        "operationId": "getClients",
+        "summary": "List clients",
+        "description": "Required scope: clients:read. Reads saved state without starting paid work.",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response; shape depends on the endpoint.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Authentication required"
+          },
+          "403": {
+            "description": "Scope or account access required"
+          },
+          "429": {
+            "description": "Rate limit or usage limit; honor response retry guidance"
+          }
+        }
+      }
+    },
+    "/reporter/summary": {
+      "get": {
+        "operationId": "getReporterSummary",
+        "summary": "Read saved Tracker summary",
+        "description": "Required scope: reporter:read. Reads saved state without starting paid work.",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response; shape depends on the endpoint.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Authentication required"
+          },
+          "403": {
+            "description": "Scope or account access required"
+          },
+          "429": {
+            "description": "Rate limit or usage limit; honor response retry guidance"
+          }
+        }
+      }
+    },
+    "/copywriter/jobs": {
+      "get": {
+        "operationId": "getCopywriterJobs",
+        "summary": "List saved content projects",
+        "description": "Required scope: copywriter:read. Reads saved state without starting paid work.",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response; shape depends on the endpoint.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Authentication required"
+          },
+          "403": {
+            "description": "Scope or account access required"
+          },
+          "429": {
+            "description": "Rate limit or usage limit; honor response retry guidance"
+          }
+        }
+      }
+    },
+    "/page-auditor/audits": {
+      "get": {
+        "operationId": "getPageAuditorAudits",
+        "summary": "List saved page audits",
+        "description": "Required scope: page_audit:read. Reads saved state without starting paid work.",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response; shape depends on the endpoint.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Authentication required"
+          },
+          "403": {
+            "description": "Scope or account access required"
+          },
+          "429": {
+            "description": "Rate limit or usage limit; honor response retry guidance"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Scoped Rankability API key"
+      }
+    }
+  },
+  "externalDocs": {
+    "url": "https://www.rankability.com/seo-api/"
+  }
+}

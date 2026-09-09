@@ -1,0 +1,43 @@
+{
+  "name": "rankability",
+  "version": "1.0.0",
+  "description": "SEO research, AI visibility, content, and audits through your Rankability workspace.",
+  "author": {
+    "name": "Rankability",
+    "email": "support@rankability.com",
+    "url": "https://www.rankability.com/"
+  },
+  "homepage": "https://www.rankability.com/mcp-for-seo/",
+  "repository": "https://github.com/gotchseo/rankability-integrations",
+  "keywords": [
+    "seo",
+    "ai-visibility",
+    "rankability",
+    "mcp",
+    "keyword-research",
+    "content"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Rankability",
+    "shortDescription": "Analyze SEO and AI visibility",
+    "longDescription": "SEO research, AI visibility, content, and audits through your Rankability workspace.",
+    "developerName": "Rankability",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.rankability.com/mcp-for-seo/",
+    "privacyPolicyURL": "https://www.rankability.com/privacy/",
+    "termsOfServiceURL": "https://www.rankability.com/terms/",
+    "defaultPrompt": [
+      "Summarize my client\u2019s saved SEO and AI visibility evidence.",
+      "Review saved audits and prioritize improvements.",
+      "Review the scope and usage impact of a content workflow."
+    ],
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.png"
+  }
+}

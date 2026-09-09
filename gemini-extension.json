@@ -1,0 +1,11 @@
+{
+  "name": "rankability",
+  "version": "1.0.0",
+  "description": "SEO research, AI visibility, content, and audits through your Rankability workspace.",
+  "mcpServers": {
+    "rankability": {
+      "httpUrl": "https://app.rankability.com/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

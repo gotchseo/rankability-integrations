@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "rankability": {
+      "type": "http",
+      "url": "https://app.rankability.com/mcp"
+    }
+  }
+}

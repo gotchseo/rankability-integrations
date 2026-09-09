@@ -1,0 +1,23 @@
+{
+  "name": "rankability",
+  "version": "1.0.0",
+  "description": "SEO research, AI visibility, content, and audits through your Rankability workspace.",
+  "author": {
+    "name": "Rankability",
+    "email": "support@rankability.com",
+    "url": "https://www.rankability.com/"
+  },
+  "homepage": "https://www.rankability.com/mcp-for-seo/",
+  "repository": "https://github.com/gotchseo/rankability-integrations",
+  "keywords": [
+    "seo",
+    "ai-visibility",
+    "rankability",
+    "mcp",
+    "keyword-research",
+    "content"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "logo": "assets/icon.png"
+}

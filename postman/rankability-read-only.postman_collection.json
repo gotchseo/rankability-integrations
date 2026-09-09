@@ -1,0 +1,106 @@
+{
+  "info": {
+    "name": "Rankability \u2014 Read-only API Starter",
+    "description": "Read saved SEO evidence. Set apiKey locally using a secret variable; never export credentials or customer responses. This collection does not run scans or publish content.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{apiKey}}",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://app.rankability.com/api/agent/v1",
+      "type": "string"
+    },
+    {
+      "key": "apiKey",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Read current usage contract",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/usage",
+        "description": "Required scope: Any supported Agent API scope"
+      },
+      "response": []
+    },
+    {
+      "name": "List clients",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/clients",
+        "description": "Required scope: clients:read"
+      },
+      "response": []
+    },
+    {
+      "name": "Read saved Tracker summary",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/reporter/summary",
+        "description": "Required scope: reporter:read"
+      },
+      "response": []
+    },
+    {
+      "name": "List saved content projects",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/copywriter/jobs",
+        "description": "Required scope: copywriter:read"
+      },
+      "response": []
+    },
+    {
+      "name": "List saved page audits",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/page-auditor/audits",
+        "description": "Required scope: page_audit:read"
+      },
+      "response": []
+    }
+  ]
+}

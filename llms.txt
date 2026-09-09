@@ -1,0 +1,12 @@
+# Rankability integrations
+
+> Hosted MCP and Agent API integration guidance for Rankability SEO and AI visibility workflows.
+
+## Documentation
+
+- [Overview](https://github.com/gotchseo/rankability-integrations/blob/main/README.md)
+- [Authentication](https://github.com/gotchseo/rankability-integrations/blob/main/docs/authentication.md)
+- [API examples](https://github.com/gotchseo/rankability-integrations/blob/main/docs/api-examples.md)
+- [Read-only OpenAPI starter](https://raw.githubusercontent.com/gotchseo/rankability-integrations/main/openapi.json)
+- [MCP setup](https://www.rankability.com/mcp-for-seo/)
+- [Agent API](https://www.rankability.com/seo-api/)

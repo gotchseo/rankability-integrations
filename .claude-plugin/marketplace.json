@@ -1,0 +1,14 @@
+{
+  "name": "rankability",
+  "owner": {
+    "name": "Rankability",
+    "email": "support@rankability.com"
+  },
+  "plugins": [
+    {
+      "name": "rankability",
+      "source": "./",
+      "description": "SEO research, AI visibility, content, and audits through your Rankability workspace."
+    }
+  ]
+}
