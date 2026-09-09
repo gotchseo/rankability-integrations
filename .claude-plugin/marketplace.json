@@ -10,5 +10,8 @@
       "source": "./",
       "description": "SEO research, AI visibility, content, and audits through your Rankability workspace."
     }
-  ]
+  ],
+  "metadata": {
+    "description": "Rankability hosted MCP connection and SEO workflow skill."
+  }
 }
