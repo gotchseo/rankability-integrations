@@ -1,6 +1,6 @@
 {
   "name": "rankability",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SEO research, AI visibility, content, and audits through your Rankability workspace.",
   "author": {
     "name": "Rankability",
@@ -22,7 +22,7 @@
   "interface": {
     "displayName": "Rankability",
     "shortDescription": "Analyze SEO and AI visibility",
-    "longDescription": "SEO research, AI visibility, content, and audits through your Rankability workspace.",
+    "longDescription": "Connect your Rankability account to review client SEO and AI visibility evidence, saved audits, keyword research, and content projects. Use existing reports to prioritize next steps. Research, content creation, scans, and other changes require the appropriate account permissions and your authorization. Access stays within the organization you connect.",
     "developerName": "Rankability",
     "category": "Productivity",
     "capabilities": [
