@@ -61,6 +61,10 @@ If your client requires an API key, use a scoped key stored in its supported sec
 
 No credentials, sample customer responses, publishing actions, or paid scan requests are included. Read-only examples do not prove authentication or end-to-end behavior in every host; see [validation](docs/validation.md).
 
+## OpenAI directory submission
+
+The root `plugin.json` carries current OpenAI listing metadata and prepared review cases. The `.codex-plugin/plugin.json` remains available for local Codex installation. Build the public submission ZIP with `python3 scripts/build-openai-submission.py`. See [submission preparation](docs/openai-submission.md) for the remaining authenticated checks. A ZIP build or upload is not approval or publication.
+
 ## Support and policies
 
 [Help Center](https://help.rankability.com/) · [Privacy](https://www.rankability.com/privacy/) · [Terms](https://www.rankability.com/terms/) · support@rankability.com
