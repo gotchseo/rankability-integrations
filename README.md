@@ -10,9 +10,13 @@ A Rankability account with API access is required. OAuth is preferred. Permissio
 
 ## Connect your assistant
 
-### Claude and other remote MCP clients
+### Claude
 
-Add a custom remote connector with `https://app.rankability.com/mcp`, then complete Rankability OAuth. Review the organization and scopes on the consent screen. Plan and administrator settings can affect custom-connector availability.
+Rankability is listed in Claude's connector directory. Open **Customize → Connectors → Discover**, search for **Rankability**, and select **Connect to Claude**, then complete Rankability OAuth. Review the organization and scopes on the consent screen. On Team or Enterprise, an Owner selects **Connect for your team** first.
+
+### Other remote MCP clients
+
+Add a custom remote connector with `https://app.rankability.com/mcp`, then complete Rankability OAuth.
 
 ### Claude Code plugin
 

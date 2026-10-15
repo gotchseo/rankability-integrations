@@ -1,7 +1,7 @@
 {
   "name": "rankability",
   "version": "1.0.0",
-  "description": "SEO research, AI visibility, content, and audits through your Rankability workspace.",
+  "description": "AI search visibility and SEO for agencies: see where ChatGPT, Google AI Overviews and other answer engines mention or skip your clients, close the citation gaps, and create, audit and report on content.",
   "mcpServers": {
     "rankability": {
       "httpUrl": "https://app.rankability.com/mcp"
