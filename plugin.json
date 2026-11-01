@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "rankability",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "SEO research, AI visibility, content, and audits through your Rankability workspace.",
   "author": {
     "name": "Rankability",
@@ -16,14 +16,18 @@
     "rankability",
     "mcp",
     "keyword-research",
-    "content"
+    "content",
+    "aeo",
+    "geo",
+    "rank-tracking",
+    "content-optimization"
   ],
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Rankability",
-        "shortDescription": "Analyze SEO and AI visibility",
-        "longDescription": "Analyze SEO and AI visibility data for your clients in Rankability. Review saved rankings, AI mentions and citations, page audits, keyword research, and content projects to prioritize improvements. Research, content creation, scans, and other changes require the appropriate account permissions and your authorization. Access stays within the organization you connect.",
+        "displayName": "Rankability: AI SEO, AEO & GEO",
+        "shortDescription": "Track AI visibility & rankings",
+        "longDescription": "Rankability brings your SEO and AI search data into your conversations. See how often AI answers mention and cite your clients, track organic rankings and local pack positions, and find which competitors and domains AI answers cite instead. Check any brand live across major AI answer engines and search engines, run page audits against a target keyword, do keyword research, review site audits and Search Console performance, and build content briefs and SEO and AEO content. Built for agencies and in-house teams working on AEO, GEO, rank tracking and content optimization. Actions that use account usage ask for your approval first, and access stays within the organization you connect.",
         "developerName": "Rankability",
         "category": "Data & Analytics",
         "capabilities": [
@@ -34,9 +38,9 @@
         "privacyPolicyURL": "https://www.rankability.com/privacy/",
         "termsOfServiceURL": "https://www.rankability.com/terms/",
         "defaultPrompt": [
-          "Summarize my client\u2019s saved SEO and AI visibility evidence.",
-          "Review saved audits and prioritize improvements.",
-          "Review the scope and usage impact of a content workflow."
+          "Are AI answers citing my client\u2019s site? Show where competitors win.",
+          "Audit this page for my target keyword and tell me what to fix.",
+          "Find keywords my client should target next."
         ],
         "logo": "./assets/icon.png",
         "composerIcon": "./assets/icon.png",
@@ -93,10 +97,11 @@
               "expected_behavior": "Use read-only estimation when the target is supplied, or ask for the missing target. Never call site_audit_run, start_crawl, or another write tool."
             }
           ]
-        }
+        },
+        "demo_recording_url": "https://vimeo.com/1232321768/0144639207"
       },
       "publication": {
-        "release_notes": "Prepared initial public-directory package for Rankability with complete listing metadata and five positive and three negative review scenarios. These scenarios specify expected behavior; they are not execution receipts. Authenticated reviewer testing and the walkthrough recording must be completed before submission."
+        "release_notes": "Clearer directory listing: updated name, subtitle, description and starter prompts to describe Rankability's SEO, AEO, GEO, AI visibility and rank tracking capabilities. No tool or permission changes."
       }
     }
   }
