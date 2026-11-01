@@ -10,7 +10,9 @@ Use normal OAuth consent with the least permissions required by the test workflo
 
 Before uploading, verify that the deployed `consult_serena` schema accepts only a client ID and focused question, with no prior-turn array. The private application fix must be released through Rankability's existing Replit path before a portal scan can see it. Re-enumerate deployed tools instead of copying historical counts. Annotation justifications are no longer required; explicit boolean annotations remain required.
 
-Resume the existing Rankability portal draft. Add the real accessible video URL as `extensions.com.openai.review.demo_recording_url` and rebuild when available. Do not insert placeholder URLs or record synthetic screenshots as live acceptance. Preserve the existing selected developer identity and country availability unless the owner changes them. Review the current domain challenge rather than replacing another plugin's token.
+Resume the existing Rankability portal draft. The walkthrough recording is set as `extensions.com.openai.review.demo_recording_url`; replace it only with another real, accessible recording. Do not insert placeholder URLs or record synthetic screenshots as live acceptance. Preserve the existing selected developer identity and country availability unless the owner changes them. Review the current domain challenge rather than replacing another plugin's token.
+
+Keep other AI assistants, models and platforms out of the name, description and starter prompts; the portal's automated check flags them. Upload each change with a new version number, because a re-upload with the same version is ignored.
 
 Record tool arguments, returned sample record references, results and confirmation behavior for all cases. Check desktop and mobile ChatGPT. Review listing privacy, third-party data handling and consequential actions against the current guidelines. Only attest to verified behavior. Submission starts review; publish separately after approval and the product launch workflow.
 
