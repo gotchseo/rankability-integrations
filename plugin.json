@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "rankability",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "SEO research, AI visibility, content, and audits through your Rankability workspace.",
   "author": {
     "name": "Rankability",
@@ -20,14 +20,15 @@
     "aeo",
     "geo",
     "rank-tracking",
-    "content-optimization"
+    "content-optimization",
+    "seo-audit"
   ],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Rankability: AI SEO, AEO & GEO",
         "shortDescription": "Track AI visibility & rankings",
-        "longDescription": "Rankability brings your SEO and AI search data into your conversations. See how often AI answers mention and cite your clients, track organic rankings and local pack positions, and find which competitors and domains AI answers cite instead. Check any brand live across major AI answer engines and search engines, run page audits against a target keyword, do keyword research, review site audits and Search Console performance, and build content briefs and SEO and AEO content. Built for agencies and in-house teams working on AEO, GEO, rank tracking and content optimization. Actions that use account usage ask for your approval first, and access stays within the organization you connect.",
+        "longDescription": "Rankability brings your SEO and AI search data into your conversations. See how often AI answers mention and cite your clients, track organic rankings and local pack positions, and find which competitors and domains AI answers cite instead. Check any brand live across major AI answer engines and search engines, run on-page SEO audits against a target keyword, do keyword research, review site audits and Search Console performance, and build content briefs and SEO and AEO content. Built for agencies and in-house teams working on AEO, GEO, rank tracking and content optimization. Actions that use account usage ask for your approval first, and access stays within the organization you connect.",
         "developerName": "Rankability",
         "category": "Data & Analytics",
         "capabilities": [
@@ -101,7 +102,7 @@
         "demo_recording_url": "https://vimeo.com/1232321768/0144639207"
       },
       "publication": {
-        "release_notes": "Clearer directory listing: updated name, subtitle, description and starter prompts to describe Rankability's SEO, AEO, GEO, AI visibility and rank tracking capabilities. No tool or permission changes."
+        "release_notes": "Description wording: page audits are now described as on-page SEO audits, matching what the page audit tool does. No tool or permission changes."
       }
     }
   }
