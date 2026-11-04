@@ -47,9 +47,8 @@ def main():
     mcp = json.loads((root / "mcp.json").read_text())
     assert list(mcp["mcpServers"]) == ["rankability"]
     server = mcp["mcpServers"]["rankability"]
-    assert server == {"url": "https://app.rankability.com/mcp"}, "Unexpected MCP config; review before packaging"
-    # Use the documented portable transport declaration only in the submission;
-    # retain existing Cursor configuration in the repository.
+    assert server == {"type": "streamable-http", "url": "https://app.rankability.com/mcp"}, "Unexpected MCP config; review before packaging"
+    # Keep the portable transport declaration shared with Cursor.
     mcp = {
         "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
         "mcpServers": {"rankability": {"type": "streamable-http", **server}},
