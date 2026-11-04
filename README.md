@@ -10,9 +10,13 @@ A Rankability account with API access is required. OAuth is preferred. Permissio
 
 ## Connect your assistant
 
+### ChatGPT
+
+Open the [Rankability plugin listing](https://chatgpt.com/plugins/plugin_asdk_app_6abcf76b7e6c8191852154b3b19d11c4), install it, and complete Rankability OAuth. Version 1.0.5 was verified publicly listed on November 4, 2026. Availability and permissions depend on your account and workspace.
+
 ### Claude
 
-Rankability is listed in Claude's connector directory. Open **Customize → Connectors → Discover**, search for **Rankability**, and select **Connect to Claude**, then complete Rankability OAuth. Review the organization and scopes on the consent screen. On Team or Enterprise, an Owner selects **Connect for your team** first.
+Open **Customize → Connectors → Discover** and search for **Rankability**. On November 4, 2026, the signed-in directory showed the Rankability community **plugin from Anthropic Directory**, version 0.2.1 with seven skills and one connector. An existing custom Rankability connector is a separate entry. Follow the plugin's setup flow and review the organization and scopes on the OAuth consent screen. If the plugin is unavailable to your account, use the custom remote MCP connection below. This observation does not establish a separate standalone connector listing or universal account availability.
 
 ### Other remote MCP clients
 
@@ -45,6 +49,8 @@ Add the following to your MCP configuration and complete OAuth when prompted:
 
 This repository also includes `.cursor-plugin/plugin.json` and `mcp.json` for plugin distribution.
 
+See [Cursor submission preparation](docs/cursor-submission.md) for listing fields, the package builder, and the remaining authenticated acceptance checks. The native package is prepared; marketplace submission and approval have not been verified.
+
 ### Codex
 
 The package includes `.codex-plugin/plugin.json` for plugin distribution. You can also connect the hosted server directly:
@@ -68,6 +74,12 @@ No credentials, sample customer responses, publishing actions, or paid scan requ
 ## OpenAI directory submission
 
 The root `plugin.json` carries current OpenAI listing metadata and prepared review cases. The `.codex-plugin/plugin.json` remains available for local Codex installation. Build the public submission ZIP with `python3 scripts/build-openai-submission.py`. See [submission preparation](docs/openai-submission.md) for the remaining authenticated checks. A ZIP build or upload is not approval or publication.
+
+Publication update, November 4, 2026: the publisher dashboard and public listing both confirm version 1.0.5 is published. Historical preparation notes are not the current publication status. Fresh-install and platform-specific acceptance tests remain separate evidence.
+
+## Official MCP Registry
+
+`io.github.gotchseo/rankability` version 1.0.1 was published and verified active/latest on November 4, 2026. [Registry record](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gotchseo/rankability). Registry metadata does not imply approval in other directories.
 
 ## Support and policies
 
