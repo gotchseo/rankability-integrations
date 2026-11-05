@@ -1,7 +1,7 @@
 {
   "name": "rankability",
-  "version": "1.0.5",
-  "description": "AI search visibility and SEO for agencies: see where ChatGPT, Google AI Overviews and other answer engines mention or skip your clients, close the citation gaps, and create, audit and report on content.",
+  "version": "1.0.6",
+  "description": "AI search visibility and SEO for businesses, marketing teams, consultants, and agencies. Track mentions and citations, research keywords, create content, review audits, and report on progress.",
   "author": {
     "name": "Rankability",
     "email": "support@rankability.com",
@@ -26,7 +26,7 @@
   "interface": {
     "displayName": "Rankability: AI SEO, AEO & GEO",
     "shortDescription": "Track AI visibility & rankings",
-    "longDescription": "Rankability brings your SEO and AI search data into your conversations. See how often AI answers mention and cite your clients, track organic rankings and local pack positions, and find which competitors and domains AI answers cite instead. Check any brand live across major AI answer engines and search engines, run page audits against a target keyword, do keyword research, review site audits and Search Console performance, and build content briefs and SEO and AEO content. Built for agencies and in-house teams working on AEO, GEO, rank tracking and content optimization. Actions that use account usage ask for your approval first, and access stays within the organization you connect.",
+    "longDescription": "Rankability brings your SEO and AI search data into your conversations. See how often AI answers mention and cite your business or clients, track organic rankings and local pack positions, and find which competitors and domains AI answers cite instead. Check any brand live across major AI answer engines and search engines, run page audits against a target keyword, do keyword research, review site audits and Search Console performance, and build content briefs and SEO and AEO content. Built for business owners, in-house teams, consultants and agencies working on AEO, GEO, rank tracking and content optimization. Actions that use account usage ask for your approval first, and access stays within the organization you connect.",
     "developerName": "Rankability",
     "category": "Data & Analytics",
     "capabilities": [
@@ -37,11 +37,12 @@
     "privacyPolicyURL": "https://www.rankability.com/privacy/",
     "termsOfServiceURL": "https://www.rankability.com/terms/",
     "defaultPrompt": [
-      "Are AI answers citing my client\u2019s site? Show where competitors win.",
+      "Are AI answers citing my site? Show where competitors appear instead.",
       "Audit this page for my target keyword and tell me what to fix.",
-      "Find keywords my client should target next."
+      "Find keywords my business should target next."
     ],
     "logo": "./assets/icon.png",
-    "composerIcon": "./assets/icon.png"
+    "composerIcon": "./assets/icon.png",
+    "supportURL": "https://help.rankability.com/"
   }
 }

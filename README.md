@@ -1,6 +1,6 @@
 # Rankability integrations
 
-Connect your assistant or workflow to [Rankability](https://www.rankability.com/). Analyze client SEO and AI visibility evidence, research keywords, work with content, and review audits through the hosted MCP server and Agent API.
+Connect your assistant or workflow to [Rankability](https://www.rankability.com/). Analyze SEO and AI visibility evidence for your business or clients, research keywords, work with content, and review audits through the hosted MCP server and Agent API.
 
 - **MCP:** `https://app.rankability.com/mcp` (Streamable HTTP)
 - **Agent API:** `https://app.rankability.com/api/agent/v1`
