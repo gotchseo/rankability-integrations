@@ -1,13 +1,13 @@
 # Cursor submission packet
 
-Prepared November 4, 2026. Package preparation is complete; authenticated Cursor testing and marketplace submission remain outstanding.
+Updated November 5, 2026. Metadata version 1.0.1 and package validation are complete; authenticated Cursor acceptance, publisher access and marketplace submission remain outstanding. The November 4 preparation is historical; no marketplace approval is inferred.
 
 ## Submission fields
 
 - Publisher: Rankability (business publisher; confirm the signed-in account has authority).
 - Name: Rankability
 - Identifier: `rankability`
-- Native Cursor package version: `1.0.0`
+- Native Cursor package version: `1.0.1`
 - Repository: https://github.com/gotchseo/rankability-integrations
 - Plugin directory: repository root
 - Manifest: `.cursor-plugin/plugin.json`
@@ -22,7 +22,7 @@ Prepared November 4, 2026. Package preparation is complete; authenticated Cursor
 
 Long description:
 
-Connect Cursor to your Rankability workspace to review saved rankings, AI mentions and citations, content projects, and page or site audits. Research keywords and prioritize improvements using client evidence. The plugin includes the rankability-seo skill and Rankability's hosted MCP connection. OAuth sign-in and a Rankability account with the necessary API access are required. Access is scoped to the connected organization. Research, scans, content generation, and other changes use the account's allowances and require appropriate authorization. A directory installation does not grant additional Rankability permissions.
+Connect Cursor to your Rankability workspace to review saved rankings, AI mentions and citations, content projects, and page or site audits. Research keywords and prioritize improvements using evidence for your business or clients. Built for business owners, in-house marketing teams, consultants and agencies. The plugin includes the rankability-seo skill and Rankability's hosted MCP connection. OAuth sign-in and a Rankability account with the necessary API access are required. Access is scoped to the connected organization. Research, scans, content generation, and other changes use the account's allowances and require appropriate authorization. A directory installation does not grant additional Rankability permissions.
 
 ## Package and validation
 

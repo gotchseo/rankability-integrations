@@ -18,6 +18,8 @@ Open the [Rankability plugin listing](https://chatgpt.com/plugins/plugin_asdk_ap
 
 Open **Customize → Connectors → Discover** and search for **Rankability**. On November 4, 2026, the signed-in directory showed the Rankability community **plugin from Anthropic Directory**, version 0.2.1 with seven skills and one connector. An existing custom Rankability connector is a separate entry. Follow the plugin's setup flow and review the organization and scopes on the OAuth consent screen. If the plugin is unavailable to your account, use the custom remote MCP connection below. This observation does not establish a separate standalone connector listing or universal account availability.
 
+Current directory readback, November 5, 2026: the same Anthropic Directory plugin now shows version 0.2.2 and the broader description for business owners, marketing teams, consultants and agencies. Seven skills and one connector remain. The November 4 observation above is historical.
+
 ### Other remote MCP clients
 
 Add a custom remote connector with `https://app.rankability.com/mcp`, then complete Rankability OAuth.
